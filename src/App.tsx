@@ -171,7 +171,7 @@ function App() {
         );
 
         const duration = endTime - startTime;
-        const outputFileName = `output-trimmed-0.mp4`;
+        const outputFileName = `output-trimmed-0.${videoFileType}`;
 
         await ffmpeg.run(
           "-v",
